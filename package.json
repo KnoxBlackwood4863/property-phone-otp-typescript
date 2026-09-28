@@ -1,0 +1,17 @@
+{
+  "name": "property-otp-learning-service",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --experimental-strip-types src/property_otp_service.ts",
+    "test": "node --experimental-strip-types src/property_otp_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "typescript": "^5.6.3"
+  }
+}
